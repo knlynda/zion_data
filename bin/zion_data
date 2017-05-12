@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require 'zion_data'
+
+puts "Zion data manager version: #{ZionData::VERSION}"
+ZionData.send_corrected_sources
